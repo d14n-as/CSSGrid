@@ -1,0 +1,17 @@
+/* Next: Placing Element On Grid */
+/* Recorded by Dian Abdul Syahid */
+.container {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);  
+    /* Grid template Column 1fr adalah lebar column tersebut 1fr (100%) */
+    grid-template-rows: repeat(3, 100px);
+    /* Grid template rows 100px adalah tinggi 3 rows tersebut 100px */
+    grid-gap:10px;
+    /* Grid gap adalah jarak columns dan rows masing2 10px sama rata */
+}
+
+.item {
+    background-color:#0593be;
+    color:white;
+    padding:1rem;
+}
