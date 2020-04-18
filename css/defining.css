@@ -2,12 +2,18 @@
 /* Recorded by Dian Abdul Syahid */
 .container {
     display: grid; 
+    /* Jadi saya mulai dari sini  */
     grid-template-columns: repeat(5, 1fr);  
-    /* Grid template Column 1fr adalah lebar column tersebut 1fr (100%) */
+    /* Grid template Column 1fr adalah lebar 5 column tersebut 1fr (100%) */
     grid-template-rows: repeat(3, 100px);
     /* Grid template rows 100px adalah tinggi 3 rows tersebut 100px */
-    grid-gap:10px;
+
+    grid-gap:10px 20px;
     /* Grid gap adalah jarak columns dan rows masing2 10px sama rata */
+    /* Grid gap 10px adalah jarak antara rows */
+    /* Grid gap 20px adalah jarak antara columns */
+/* 
+    Jadi, element yang sudah di implementasikan tadi, merupakan element yang disusun secara otomotis oleh browser menggunakan auto-placement algorithm. Dan gimana ya caranya supaya element2 tersebut bisa di sesuaikan tempatnya sesuai kebutuhan/keinginan? Akan saya implementasikan di video selanjutnya! */
 }
 
 .item {

@@ -1,0 +1,23 @@
+{
+  "name": "cssgrid",
+  "version": "1.0.0",
+  "description": "Buka Browser Firefox  Inspect Element > parent div grid (misalnya: container) Klik pada Tab Layout Lalu Checklist Overlay Grid (div.container) Kemudian akan tampil garis | Bisa juga untuk men- check list Display Line Number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d14n-as/CSSGrid.git"
+  },
+  "author": "Dian Abdul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d14n-as/CSSGrid/issues"
+  },
+  "homepage": "https://github.com/d14n-as/CSSGrid#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
