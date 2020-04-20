@@ -1,17 +1,45 @@
-/* Next: Placing Element On Grid */
-/* Recorded by Dian Abdul Syahid */
-.container {
-    display: grid; 
-    grid-template-columns: repeat(5, 1fr);  
-    /* Grid template Column 1fr adalah lebar column tersebut 1fr (100%) */
-    grid-template-rows: repeat(3, 100px);
-    /* Grid template rows 100px adalah tinggi 3 rows tersebut 100px */
-    grid-gap:10px;
-    /* Grid gap adalah jarak columns dan rows masing2 10px sama rata */
-}
 
-.item {
-    background-color:#0593be;
-    color:white;
+.demo {
+    color:#fff;
     padding:1rem;
-}
+    border-radius:3px;
+  }
+  
+  header.demo {
+    background-color:#f00;
+  }
+  
+  aside.demo {
+  background-color:#4a71ae;
+  }
+  
+  main.demo {
+    background-color:#70d736;
+  }
+  
+  footer.demo {
+    background-color:#5a6f6c;
+  }
+  
+  .grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:100px 400px 100px;
+  }
+  
+  header {
+    grid-column: 1 / -1;
+  }
+  
+  main {
+    grid-column:1/-1;
+  }
+  
+  aside {
+    grid-column:-1;
+    grid-row:1/-1;
+  }
+  
+  footer {
+    grid-column:1/-1;
+  }
